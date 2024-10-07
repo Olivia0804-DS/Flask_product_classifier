@@ -5,6 +5,9 @@ import numpy as np
 import pickle
 import os
 
+# Import your Combine_Transformer and any other dependencies
+from your_module import Combine_Transformer  
+# Assuming your custom class is defined in a file called your_module.py
 
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
